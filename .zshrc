@@ -15,6 +15,9 @@ alias zshconfig="st ~/.zshrc"
 alias ohmyzsh="stt ~/.oh-my-zsh"
 alias rmdir="rm -rf"
 alias sr="svn rebase"
+alias cl=clear
+
+set -g default-terminal "screen-256color"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -45,7 +48,7 @@ alias sr="svn rebase"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git sublime vagrant vi-mode web-search)
+plugins=(git sublime vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 
