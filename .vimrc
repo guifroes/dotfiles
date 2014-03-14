@@ -11,7 +11,19 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeTabsToggle<CR>
+let g:NERDTreeDirArrows=0
+
+" Easier split navigation
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Open new split panes to right and bottom
+set splitbelow
+set splitright
+
 set nocompatible  			" We don't want vi compatibility.
 set hidden
 set showcmd     			" show incomplete cmds down the bottom
@@ -34,5 +46,6 @@ set mat=5           " Bracket blinking.
 set list
 
 " Removing backup clutter
-set backupdir=~/.vim/backup,/tmp
-set dir=~/.vim/backup,/tmp
+set backupdir=~/.vim/backup//
+set directory=~/.vim/backup//
+set undodir=~/.vim/backup//
