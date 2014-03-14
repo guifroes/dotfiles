@@ -54,3 +54,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/local/sbin:~/bin:/opt/local/bin/gcc-apple-4.2:/opt/local/bin:/opt/local/sbin:/Users/Thoughtworks/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Thoughtworks/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Thoughtworks/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Thoughtworks/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/bin:/usr/local/heroku/bin:$PATH"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
